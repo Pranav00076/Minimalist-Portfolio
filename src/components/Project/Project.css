@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Barrio&family=Bitcount+Ink:wght@100..900&family=Bungee+Spice&family=Caprasimo&family=Fascinate&family=Fascinate+Inline&family=Honk:MORF@15&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Poller+One&family=Rubik+Distressed&family=Rubik+Gemstones&family=Rubik+Puddles&family=SN+Pro:ital,wght@0,200..900;1,200..900&family=Story+Script&family=UnifrakturCook:wght@700&display=swap');
+
+.outer{
+    width: 80%;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 1.5rem;
+    font-family: 'SN Pro';
+    color: white;
+    border-bottom: 1px solid #727272;
+    opacity: 85%;
+    transition: ease 0.5s;
+}
+.inner{
+    font-size: 4rem;
+    margin-bottom: 10vh;
+    
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.pairs{
+    display: flex;
+    justify-content: space-between;
+}
+.more-proj{
+    display: flex;
+    width: 50%;
+    margin-left: 15vw;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+    border: 1px solid #727272;
+    border-radius: 9999px;
+    gap: 0.5vw;
+    padding: 5px;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+#more-proj :hover{
+    scale: 1.05;
+}
+a{
+    text-decoration: none;
+    color: #cfcece;
+}

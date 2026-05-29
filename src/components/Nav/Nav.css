@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Barrio&family=Bitcount+Ink:wght@100..900&family=Bungee+Spice&family=Caprasimo&family=Fascinate&family=Fascinate+Inline&family=Honk:MORF@15&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Poller+One&family=Rubik+Distressed&family=Rubik+Gemstones&family=Rubik+Puddles&family=SN+Pro:ital,wght@0,200..900;1,200..900&family=Story+Script&family=UnifrakturCook:wght@700&display=swap');
+
+nav{
+    backdrop-filter: blur(50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 5vh;
+    border-radius: 9999px;
+    position: fixed;
+    gap: 5vw;
+    margin-top: 20px;
+    z-index: 20;
+    margin-left: 30vw;
+}
+nav div{
+    font-size: 2vh;
+    font-family: "SN Pro";
+    color: #727272;
+}

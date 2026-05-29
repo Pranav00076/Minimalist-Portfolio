@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Barrio&family=Bitcount+Ink:wght@100..900&family=Bungee+Spice&family=Caprasimo&family=Fascinate&family=Fascinate+Inline&family=Honk:MORF@15&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Poller+One&family=Rubik+Distressed&family=Rubik+Gemstones&family=Rubik+Puddles&family=SN+Pro:ital,wght@0,200..900;1,200..900&family=Story+Script&family=UnifrakturCook:wght@700&display=swap');
+
+
+#home{
+    font-family: 'Sn Pro';
+    margin-left: 10vw;
+    margin-top: 4vh;
+    opacity: 80%;
+    transition: all 1s ease;
+}
+
+.outerhome{
+    border-bottom: 1px solid #727272;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #727272;
+    gap: 5vw;
+}
+
+.right{
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 50vh;
+    color: #727272;
+    width: 30%;
+    gap: 0vh;
+    margin: 0;
+}
+h2{
+    color: white;
+    font-size: 4rem;
+    line-break: normal;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+}
+h4{
+    margin-bottom: 0;
+    font-size: 1.4rem;
+}
+#links{
+    display: flex;
+    gap: 2vw;
+}
+
+#links img{
+    height: 4vh;
+    border: 0.1px solid #727272;
+    border-radius: 20%;
+    padding: 5%;
+}
+
+#content{
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    color: white;
+    font-family: 'SN Pro';
+    opacity: 80%;
+    height: auto;
+    transition: ease-in 1s;
+    margin-left: 10vw;
+    transition: all 0.3s ease;
+    margin-bottom: 8vh;
+}
+
+.glitch{
+    width: 50%;
+    height: 30vh;
+  transition: all 0.3s ease;
+
+}
+.accordion-card {
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  padding: 6px;
+  background: rgba(255,255,255,0.01);
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+}
+
+.accordion-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.3s ease;
+
+}
+
+.accordion-left h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  transition: all 0.3s ease;
+
+}
+
+.accordion-content {
+  margin-top: 0;
+  padding-left: 0rem;
+  color: rgba(255,255,255,0.7);
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+}
+
+.accordion-content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: all 0.3s ease;
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Barrio&family=Bitcount+Ink:wght@100..900&family=Bungee+Spice&family=Caprasimo&family=Fascinate&family=Fascinate+Inline&family=Honk:MORF@15&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Poller+One&family=Rubik+Distressed&family=Rubik+Gemstones&family=Rubik+Puddles&family=SN+Pro:ital,wght@0,200..900;1,200..900&family=Story+Script&family=UnifrakturCook:wght@700&display=swap');
+
+.scrolling_text {
+    width: 85%;
+    overflow: hidden;
+    display: flex;
+    margin-left: 10vw;
+    white-space: nowrap;
+    gap: 4vw;
+    opacity: 80%;
+    margin-top: 0vh;
+}
+.text span {
+    margin: 0 40px;
+}
+
+.text {
+    display: flex;
+    gap: 4vw;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family:"SN Pro";
+    color: #787878;
+    animation: animate_text 30s linear infinite; 
+}
+.hover-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1vw;
+}
+#hover-image{
+    height: 3vh;
+    width: 3vw;
+}
+
+@keyframes animate_text {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(-100%, 0, 0);
+    }
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+.p-outer{
+    margin: 0;
+    margin-top: 5vh
+}
+.p-outer :hover{
+    transition: ease 0.5s;
+    scale: 1.03;
+}
+
+#p-img{
+    height: 17vw;
+    border-radius: 10px;
+    border:1px solid #727272;
+}
+
+.details{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10vw;
+    width: fit-content;
+}
+
+.title{
+    width: 12rem;
+}
+
+.title p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.title h4{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
