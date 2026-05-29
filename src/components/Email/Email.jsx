@@ -9,8 +9,8 @@ const ContactUs = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_tw1d3ra', 'template_i14iykn', form.current, {
-        publicKey: 'l4N73wXSF87YfYb9D',
+      .sendForm(import.meta.env.VITE_EMAILJS_SERVICE_ID, import.meta.env.VITE_EMAILJS_TEMPLATE_ID, form.current, {
+        publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
       })
       .then(
         () => {
