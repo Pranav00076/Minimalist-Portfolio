@@ -19,3 +19,30 @@ nav div{
     font-family: "SN Pro";
     color: #727272;
 }
+
+@media screen and (max-width: 1024px) {
+  nav {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    gap: 6vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    width: 85%;
+    height: 6vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    gap: 8vw;
+    padding: 0 10px;
+  }
+  nav div {
+    font-size: 2.2vh;
+  }
+}

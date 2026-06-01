@@ -35,3 +35,17 @@ button:hover{
     cursor: pointer;
     color: black;
 }
+
+@media screen and (max-width: 900px) {
+  .e-outer {
+    width: 100%;
+  }
+  input, textarea, button {
+    height: auto;
+    padding: 12px;
+    font-size: 1rem;
+  }
+  textarea {
+    height: 120px;
+  }
+}

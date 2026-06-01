@@ -11,7 +11,7 @@ import "./Project.css"
 
 function Project(){
     return (
-        <div className="outer">
+        <section id="projects" className="projects">
             {<ShinyText
                 text="My Work"
                 speed={2}
@@ -91,7 +91,7 @@ function Project(){
                 
             </a>
             
-        </div>
+        </section>
     )
 }
 

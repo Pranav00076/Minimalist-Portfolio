@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Barrio&family=Bitcount+Ink:wght@100..900&family=Bungee+Spice&family=Caprasimo&family=Fascinate&family=Fascinate+Inline&family=Honk:MORF@15&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Poller+One&family=Rubik+Distressed&family=Rubik+Gemstones&family=Rubik+Puddles&family=SN+Pro:ital,wght@0,200..900;1,200..900&family=Story+Script&family=UnifrakturCook:wght@700&display=swap');
 
-.outer{
+.projects{
     width: 80%;
     margin-top: 10vh;
     margin-left: 10vw;
@@ -47,4 +47,30 @@
 a{
     text-decoration: none;
     color: #cfcece;
+}
+
+@media screen and (max-width:900px) {
+  .outer {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .inner {
+    font-size: 2.2rem;
+    margin-bottom: 4vh;
+  }
+  .pairs {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .more-proj {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+    margin-top: 20px;
+  }
 }

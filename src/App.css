@@ -35,3 +35,19 @@ body,
   position: relative;
   z-index: 10;
 }
+
+@media screen and (max-width: 1024px) {
+  .app-wrapper {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .app-wrapper {
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -42,3 +42,26 @@
 span{
     color: white;
 }
+
+@media screen and (max-width: 900px) {
+  .c_outer {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .c_inner {
+    font-size: 2.2rem;
+    margin-bottom: 3vh;
+  }
+  .c_details {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .fqa {
+    width: 100%;
+    gap: 15px;
+    font-size: 1rem;
+  }
+}

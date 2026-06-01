@@ -42,3 +42,19 @@
       transform: translate3d(-100%, 0, 0);
     }
 }
+
+@media screen and (max-width: 900px) {
+  .scrolling_text {
+    width: 100%;
+    margin-left: 0;
+    gap: 20px;
+  }
+  #hover-image {
+    height: 20px;
+    width: 20px;
+  }
+  .text {
+    font-size: 1rem;
+    gap: 20px;
+  }
+}

@@ -6,7 +6,7 @@ import "./Contact.css"
 
 function Contact() {
     return (
-        <div className="c_outer">
+        <section className="c_outer" id="contact">
             {<ShinyText
                 text="Let's Talk"
                 speed={2}
@@ -34,7 +34,7 @@ function Contact() {
                 </div>
             </div>
 
-        </div>
+        </section>
     )
 }
 
