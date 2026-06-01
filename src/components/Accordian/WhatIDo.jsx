@@ -24,11 +24,12 @@ export default function WhatIDo() {
 
       <AccordionItem
         icon={<Smartphone size={35} />}
-        title="Mobile Development"
+        title="Interactive Games"
         content={
           <ul>
-            <li>Cross-platform apps</li>
-            <li>React Native apps</li>
+            <li>Cross-platform</li>
+            <li>Camera Interactive</li>
+            <li>React Native Games</li>
           </ul>
         }
       />
@@ -38,8 +39,9 @@ export default function WhatIDo() {
         title="UI/UX Design & Prototyping"
         content={
           <ul>
-            <li>Wireframing</li>
+            <li>Creative Designing</li>
             <li>Interactive Figma prototypes</li>
+            <li>Interactive Framer prototypes</li>
           </ul>
         }
       />
