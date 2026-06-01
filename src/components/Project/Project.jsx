@@ -52,7 +52,7 @@ function Project(){
                     status={"Deployed"} 
                     imgUrl={Harry} 
                     repo={"https://github.com/Pranav00076/harry_potter_site"}
-                    deploy={"https://iss-l-ive-tracker-zwhe.vercel.app/"}
+                    deploy={"https://harry-potter-site-tau.vercel.app/"}
                     />
 
                     <ProjectCard 
